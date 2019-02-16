@@ -1,1 +1,3 @@
-# mojo-bike
+#mojo
+
+Let's make a smart bike!
