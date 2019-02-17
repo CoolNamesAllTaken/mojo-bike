@@ -3,3 +3,4 @@
 .bashrc
 .profile
 sftp-config.json
+logs/

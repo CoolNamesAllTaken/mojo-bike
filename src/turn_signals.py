@@ -15,7 +15,7 @@ TURN_MIN_TIME = 3 # [sec] minimum turn duration to allow auto-turnoff of blinker
 BRAKE_NUM_PIXELS = 8 # number of pixels to use in middle of turn signal strip
 BRAKE_ACC_THRESHOLD = -4.0 # [m/s^2], x-axis
 
-STROBE_NUM_PIXELS = 8 # number of pixels to use centered in the middle for strobing
+STROBE_NUM_PIXELS = 16 # number of pixels to use centered in the middle for strobing
 STROBE_FLASH_INTERVAL = 0.1 # in seconds
 STROBE_FLASH_PATTERN = [0, 0, 0, 1, 0, 1]
 
@@ -59,8 +59,10 @@ turn_time_triggered = False
 turn_start_time = time.monotonic()
 
 ## Brake state variables
-braking = False
-strobe_on = True
+braking = True # pulse brake light on bootup
+
+## Strobe state variables
+strobe_on = False
 strobe_step = 0
 strobe_step_time = time.monotonic() # next time to step in the strobe sequence
 
@@ -167,6 +169,8 @@ def draw_button():
 		pixels[BUTTON_PIXEL_INDEX] = RGBW_BLUE # blue for left turn
 	elif braking:
 		pixels[BUTTON_PIXEL_INDEX] = RGBW_RED # red for braking
+	else:
+		pixels[BUTTON_PIXEL_INDEX] = RGBW_OFF
 
 
 	pixels.show()
