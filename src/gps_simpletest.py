@@ -7,7 +7,6 @@ import busio
  
 import adafruit_gps
  
- 
 # Define RX and TX pins for the board's serial port connected to the GPS.
 # These are the defaults you should use for the GPS FeatherWing.
 # For other boards set RX = GPS module TX, and TX = GPS module RX pins.
@@ -20,7 +19,7 @@ TX = board.TXD
  
 # for a computer, use the pyserial library for uart access
 import serial
-uart = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=3000)
+uart = serial.Serial("/dev/ttyS0", baudrate=38400, timeout=3000)
  
 # Create a GPS module instance.
 gps = adafruit_gps.GPS(uart, debug=False)
@@ -63,7 +62,7 @@ while True:
         last_print = current
         if not gps.has_fix:
             # Try again if we don't have a fix yet.
-            print('Waiting for fix...')
+            print('Waiting for fix... # satellites: {}'.format(gps.satellites))
             continue
         # We have a fix! (gps.has_fix is true)
         # Print out details about the fix like location, date, etc.
