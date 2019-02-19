@@ -145,10 +145,12 @@ def draw_pixels():
 		# disable strobe show more turn signal when turning
 		draw_brake()
 		draw_turn_signal()
+		draw_strobe()
 	elif braking:
 		# show more brake light and disable strobe when braking
 		draw_turn_signal()
 		draw_brake()
+		draw_strobe()
 	else:
 		# show more brake light normally
 		draw_turn_signal()
