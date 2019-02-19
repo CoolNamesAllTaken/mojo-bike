@@ -19,7 +19,7 @@ This project was made for Treehacks 2019.  The Devpost page can be found [here](
 ## Software Dependencies
 The Raspberry Pi was running rasbpian stretch-lite, flashed using the [Etcher](https://www.balena.io/etcher/) utility. [SSH over USB](https://stevegrunwell.com/blog/raspberry-pi-zero-share-internet/) was set up immediately to make things less painful.
 
-All of the following can be installed with pip3 from [pypi.org](https://pypi.org)).
+All of the following can be installed with pip3 from [pypi.org](https://pypi.org).
 * [CircuitPython](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
 * [NeoPixel](https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring)
 * [LSM9DS1](https://learn.adafruit.com/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout/python-circuitpython)
