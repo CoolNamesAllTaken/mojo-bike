@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<gpx>
+  <trk>
+    <name>MOJO!</name>
+    <trkseg>
+      <trkpt lat="47.644550" lon="-122.326895">
+        <ele>4.46</ele>
+        <time>2018-10-17T18:37:26Z</time>
+      </trkpt>
+      <trkpt lat="47.644548" lon="-122.326897">
+        <ele>4.94</ele>
+        <time>2018-10-17T18:37:31Z</time>
+      </trkpt>
+      <trkpt lat="47.644548" lon="-122.326897">
+        <ele>6.87</ele>
+        <time>2018-10-17T18:37:34Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
