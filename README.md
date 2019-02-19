@@ -4,7 +4,7 @@ Let's make a smart bike!
 
 This project was made for Treehacks 2019.  The Devpost page can be found [here](https://devpost.com/software/mojo-9ctvuj).
 
-[3D Print Files](https://www.thingiverse.com/thing:3437919)
+[3D Print Files](https://www.thingiverse.com/thing:3437919)  
 [Hella Pictures](https://imgur.com/a/ZvvHxzc)
 
 ## Hardware
