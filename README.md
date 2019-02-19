@@ -7,8 +7,7 @@ This project was made for Treehacks 2019.  The Devpost page can be found [here](
 [3D Print Files](https://www.thingiverse.com/thing:3437919)  
 [Hella Pictures](https://imgur.com/a/ZvvHxzc)
 
-![Awyis do some blinks](https://i.imgur.com/vv0p3B7.gif)
-![Blinkblink Blinkblink](https://i.imgur.com/2aZiz6A.gif)
+![Awyis doin a blink](https://i.imgur.com/kJ4AGSu.jpg)
 
 ## Hardware
 * Raspberry Pi Zero W
